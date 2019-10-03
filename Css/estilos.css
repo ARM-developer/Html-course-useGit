@@ -1,0 +1,17 @@
+/*reglas css
+body{
+    background: #000000;
+    color:#FFF;
+}
+*/
+h1{
+    color: royalblue;
+}
+p,blockquote{
+    color: green;
+}
+
+.green {
+    color: black;
+    font-size: 40px;
+}
