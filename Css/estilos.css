@@ -1,9 +1,10 @@
-/*reglas css
+/*
+# reglas css
 body{
     background: #000000;
     color:#FFF;
 }
-*/
+
 h1{
     color: royalblue;
 }
@@ -15,3 +16,69 @@ p,blockquote{
     color: black;
     font-size: 40px;
 }
+
+# unidades de medida
+div p{
+    font-size: 100%;
+    background: blue;
+    color: red;
+    width: 50%;
+}
+
+# unidades de color
+# utilizamos una pagina para colores especiales, 
+para saber el codigo de color especial si no decemos
+utilizar los 17 colores natos del sistema
+h1{
+    color: black;
+    color: aqua;
+}
+div{
+    color: rgb(148, 21, 10);
+    color: rgba(12, 12, 12,.5)
+    color: rgb(0, 0%, 100%);
+}
+p{
+    color: #5b5b5b;
+}
+div{
+    background: black;
+    color: white;
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 40px double green ;  ###    none: sin borde (por defecto);
+
+    solid: una sola línea sólida;
+
+    dotted: una línea de puntos;
+
+    dashed: una línea discontinua;
+
+    double: con doble borde;
+
+    groove: una línea estriada;
+
+    ridge: una línea con crestas;
+
+    inset: inset global efecto 3D;
+
+    outset: outset global efecto 3D. ####
+    display: inline-block;
+}
+# fondos 
+body{
+    background: url(../images/logo.jpg);
+    background-repeat: no-repeat;   
+    background-attachment: fixed;
+    background-position: center 0; 
+}
+div{
+    background: url(../images/logo.jpg);
+    background-repeat: no-repeat;   
+    background-attachment: fixed;
+    background-position: center 0; 
+}
+*/
+
